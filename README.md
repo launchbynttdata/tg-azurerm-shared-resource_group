@@ -112,7 +112,7 @@ Trigger can be enabled by adding the below line
 trigger: main
 ```
 
-Every time a new environent is added say `001`, or an env to a new region say `eastus2/000`, it's the responsibility of the  user to update the pipeline to reflect the new env. The pipeline itself is completely templated, meaning the user just has to pass in the new env details as inputs to a template and has to place it at the correct
+Every time a new environent is added say `001` to `eastus` region, or an env to a new region say `eastus2/000`, it's the responsibility of the  user to update the pipeline to reflect the new env. The pipeline itself is completely templated, meaning the user just has to pass in the new env details as inputs to a template and has to place it at the correct
 location.
 
 ## ADO pipeline screenshot
@@ -124,4 +124,4 @@ location.
 1. [ASDF](https://asdf-vm.com/guide/getting-started.html)
 2. [Terragrunt](https://terragrunt.gruntwork.io/docs/)
 3. [Terraform Azure provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
-4. [Terraform AKS Module](https://github.com/launchbynttdata/tf-azurerm-module_reference-kubernetes_cluster)
+4. [Terraform Resource Group Module](https://github.com/launchbynttdata/tf-azurerm-module_primitive-resource_group.git)
